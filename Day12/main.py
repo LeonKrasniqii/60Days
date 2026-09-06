@@ -320,4 +320,26 @@
 # else:
 #     print(f"Welcome {username}")
 
-# -----       ------
+# ----- indexing ------
+
+# credit_number = "1234-1234-2323-5555"
+
+# print(credit_number[2])
+# print(credit_number[:4])
+# print(credit_number[5:9])
+# print(credit_number[5:])
+# print(credit_number[-1])
+# print(credit_number[::3])
+
+# last_digits = credit_number[-4:]
+# print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+# ----- format specifiers -----
+
+price1 = 3.14159
+price2 = -987.65
+price3 = 12.34
+
+print(f"Price 1 is ${price1:10}")
+print(f"Price 2 is ${price2:10}")
+print(f"Price 3 is ${price3:10}")
